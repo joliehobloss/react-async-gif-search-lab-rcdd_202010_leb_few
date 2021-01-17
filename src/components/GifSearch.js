@@ -15,11 +15,11 @@ const GifSearch = (props) => {
   return (
     <div>
       <form onSubmit={handleSubmitGiphy}>
-        <label for="inputText">Enter Giphy</label>
+        <label for="inputText">Enter a Search Term</label>
         <br />
         <input type="text" name="inputText" onChange={handleChangeInput} />
         <br />
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Find GIFS" />
       </form>
     </div>
   );
