@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from "react";
 import NavBar from './NavBar'
 import GifSearch from "./GifSearch.js";
-import GifListContainer from "./GifListContainer.js";
+import GifListContainer from './../containers/GifListContainer' ;
 
 
 const App = () => {
